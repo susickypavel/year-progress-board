@@ -4,9 +4,12 @@ import styles from "./ProgressBar.module.scss";
 
 interface ProgressBarProps {
   /**
-   * Fill width size in %
+   * Title of the progress
    */
   title: string;
+  /**
+   * Fill width size in %
+   */
   fill_value: number;
 }
 
