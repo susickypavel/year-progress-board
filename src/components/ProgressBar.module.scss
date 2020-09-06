@@ -6,8 +6,10 @@ $progress-radius: 4px;
 
   height: 45px;
   background: #202020;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: $progress-radius;
+
+  margin-bottom: 16px;
 }
 
 .progressBar__fill {
