@@ -1,6 +1,8 @@
+import { ProgressBar } from "../src/components/ProgressBar";
+
 const Index = () => {
     return (
-        <h1>Hello World</h1>
+        <ProgressBar title="YEAR PROGRESS" fill_value={50} />
     )
 }
 
