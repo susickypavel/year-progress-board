@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import styles from "./ProgressBar.module.scss";
 
@@ -19,10 +20,14 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({
 }) => {
   return (
     <div className={styles.progressBar}>
-      <div
+      <motion.div
         className={styles.progressBar__fill}
-        style={{
+        animate={{
           width: `${fill_value}%`,
+        }}
+        transition={{
+          ease: "easeInOut",
+          duration: 1.5,
         }}
       />
       <h2 className={styles.progressBar__title}>

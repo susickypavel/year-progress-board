@@ -9,6 +9,7 @@
     "build": "next build"
   },
   "dependencies": {
+    "framer-motion": "^2.6.6",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
