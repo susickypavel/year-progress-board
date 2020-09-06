@@ -4,6 +4,10 @@
   "repository": "git@github.com:Thesoreon/year-progress-board.git",
   "author": "Pavel Sušický <pavels.sus@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "next",
+    "build": "next build"
+  },
   "dependencies": {
     "next": "^9.5.3",
     "react": "^16.13.1",
